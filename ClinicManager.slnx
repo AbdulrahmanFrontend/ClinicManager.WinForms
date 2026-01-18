@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BusinessLayer/BusinessLayer.csproj" Id="d8720f79-12d2-4656-b983-a7f8af0ccb1b" />
+  <Project Path="ClinicManager-PresentationLayer/ClinicManager-PresentationLayer.csproj" Id="60a26f41-3dc4-4be1-8e57-46d1ccd24163" />
+  <Project Path="D:/Abdulrahman/19 - Full Real Project/ClinicManager/DataAccessLayer/DataAccessLayer.csproj" Id="509a779e-1a7c-4036-99a2-8677611c8649" />
+  <Project Path="LoggingLayer/LoggingLayer.csproj" Id="0140ec27-f1f0-40f5-addf-10b2a01aa13c" />
+</Solution>
