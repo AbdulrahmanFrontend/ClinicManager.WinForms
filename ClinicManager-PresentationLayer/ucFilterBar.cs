@@ -100,7 +100,7 @@ namespace ClinicManager_PresentationLayer
                 else
                 {
                     ApplyFiltering(tbInput.Text.Trim(), 
-                        cmbFilter.SelectedItem.ToString());
+                        cmbFilter.SelectedItem.ToString(), string.Empty);
                 }
             }
         }
@@ -129,9 +129,9 @@ namespace ClinicManager_PresentationLayer
         {
             if (cbChooseDoctor.Items.Count > 0)
             {
-                cmbFilter.SelectedItem = "All Fields";
                 cbChooseDoctor.SelectedItem = "All Doctors";
             }
+            cmbFilter.SelectedItem = "All Fields";
             _MakeInputEnabled();
             if (OnClearFilteringResult != null)
             {
@@ -144,7 +144,7 @@ namespace ClinicManager_PresentationLayer
                 else
                 {
                     ApplyFiltering(tbInput.Text.Trim(),
-                        cmbFilter.SelectedItem.ToString(), "All Doctors");
+                        cmbFilter.SelectedItem.ToString(), string.Empty);
                 }
             }
         }

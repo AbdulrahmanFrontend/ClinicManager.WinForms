@@ -355,6 +355,7 @@ namespace DataAccessLayer
                 { "@AppointmentID", AppointmentID },
                 { "@DoctorID", DoctorID },
                 { "@PatientID", PatientID },
+                { "@AppointmentDateTime", AppointmentDateTime }
             };
             object Result = _GetScalar(Query, Params);
             if (Result != null)
