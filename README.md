@@ -80,10 +80,17 @@ The database backup is available in the /Database folder.
 
 | Feature | Preview |
 |-------|---------|
-| Today Appointments | ![](Screenshots/today-appointments.png) |
-| Doctors Management | ![](Screenshots/doctors-management.png) |
-| Patients Management | ![](Screenshots/patients-management.png) |
-| Appointment Completion | ![](Screenshots/appointment-completion.png) |
+| Today Appointments | ![](ScreenShots/Today-Appointments-Management.png) |
+| Doctors Management | ![](ScreenShots/Doctors-Management.png) |
+| Patients Management | ![](ScreenShots/Patients-Management.png) |
+| Appointment Completion | ![](ScreenShots/Appointment-Completion.png) |
+| Dashboard | ![](ScreenShots/Dashboard.png) |
+
+## Database Design
+The application uses a structured SQL Server database designed to support real clinic workflows,
+including appointments, medical records, payments, and prescriptions.
+
+Detailed database documentation is available in the `/Database` folder.
 
 ---
 
