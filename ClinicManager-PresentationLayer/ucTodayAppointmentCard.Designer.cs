@@ -333,18 +333,18 @@
             // dtpPaymentDate
             // 
             this.dtpPaymentDate.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dtpPaymentDate.CustomFormat = "dd/MM/yyyy hh:mm tt";
+            this.dtpPaymentDate.CustomFormat = "dd/MM/yyyy";
             this.dtpPaymentDate.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dtpPaymentDate.Enabled = false;
             this.dtpPaymentDate.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpPaymentDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpPaymentDate.Location = new System.Drawing.Point(10, 42);
-            this.dtpPaymentDate.MaxDate = new System.DateTime(2026, 1, 9, 0, 0, 0, 0);
+            this.dtpPaymentDate.MaxDate = new System.DateTime(2026, 1, 20, 0, 0, 0, 0);
             this.dtpPaymentDate.MinDate = new System.DateTime(1901, 1, 1, 0, 0, 0, 0);
             this.dtpPaymentDate.Name = "dtpPaymentDate";
             this.dtpPaymentDate.Size = new System.Drawing.Size(428, 30);
             this.dtpPaymentDate.TabIndex = 1;
-            this.dtpPaymentDate.Value = new System.DateTime(2026, 1, 9, 0, 0, 0, 0);
+            this.dtpPaymentDate.Value = new System.DateTime(2026, 1, 20, 0, 0, 0, 0);
             // 
             // lblPaymentDate
             // 
@@ -471,14 +471,14 @@
             this.lblAdditionalNotes.Text = "Additional Notes:";
             this.lblAdditionalNotes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // ucTodayAppointmentsCard
+            // ucTodayAppointmentCard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(45)))), ((int)(((byte)(60)))));
             this.Controls.Add(this.pnlAdditionalNotes);
             this.Controls.Add(this.tlpInfo);
-            this.Name = "ucTodayAppointmentsCard";
+            this.Name = "ucTodayAppointmentCard";
             this.Padding = new System.Windows.Forms.Padding(10);
             this.Size = new System.Drawing.Size(1402, 546);
             this.tlpInfo.ResumeLayout(false);

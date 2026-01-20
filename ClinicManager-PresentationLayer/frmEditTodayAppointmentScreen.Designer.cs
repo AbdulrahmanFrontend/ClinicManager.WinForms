@@ -76,6 +76,7 @@
             this.Controls.Add(this.FormActionButtons);
             this.Controls.Add(this.HeaderBar);
             this.Name = "frmEditTodayAppointmentScreen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "frmEditTodayAppointmentScreen";
             this.Load += new System.EventHandler(this.frmEditTodayAppointmentScreen_Load);
             this.ResumeLayout(false);
