@@ -155,6 +155,13 @@ It can be restored using SQL Server Management Studio.
 
 ---
 
+## 🗺️ Database Schema
+
+![ERD](ERD.png)
+![Schema](Schema.png)
+
+---
+
 ## 🧠 Design Scope
 
 This database is designed for:
@@ -169,3 +176,4 @@ It can be extended to support:
 - Audit logs
 - Insurance integration
 - Reporting modules
+
