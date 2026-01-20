@@ -74,16 +74,31 @@ The database backup is available in the /Database folder.
 - ClinicDB.bak: SQL Server database backup
 - README.md: Database structure overview
 
+### Database Setup
+
+1. Open SQL Server Management Studio (SSMS)
+2. Right-click Databases → Restore Database…
+3. Select ClinicDB.bak from the Database folder
+4. Ensure database name is `ClinicDB`
+5. Update the connection string in App.config
+
 ---
 
 ## 📸 Screenshots
 
 | Feature | Preview |
 |-------|---------|
-| Today Appointments | ![](Screenshots/today-appointments.png) |
-| Doctors Management | ![](Screenshots/doctors-management.png) |
-| Patients Management | ![](Screenshots/patients-management.png) |
-| Appointment Completion | ![](Screenshots/appointment-completion.png) |
+| Today Appointments | ![](ScreenShots/Today-Appointments-Management.png) |
+| Doctors Management | ![](ScreenShots/Doctors-Management.png) |
+| Patients Management | ![](ScreenShots/Patients-Management.png) |
+| Appointment Completion | ![](ScreenShots/Appointment-Completion.png) |
+| Dashboard | ![](ScreenShots/Dashboard.png) |
+
+## Database Design
+The application uses a structured SQL Server database designed to support real clinic workflows,
+including appointments, medical records, payments, and prescriptions.
+
+Detailed database documentation is available in the `/Database` folder.
 
 ---
 
