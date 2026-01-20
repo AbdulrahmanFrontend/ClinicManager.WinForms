@@ -94,12 +94,6 @@ The database backup is available in the /Database folder.
 | Appointment Completion | ![](ScreenShots/Appointment-Completion.png) |
 | Dashboard | ![](ScreenShots/Dashboard.png) |
 
-## Database Design
-The application uses a structured SQL Server database designed to support real clinic workflows,
-including appointments, medical records, payments, and prescriptions.
-
-Detailed database documentation is available in the `/Database` folder.
-
 ---
 
 ## 🧭 Future Enhancements (Roadmap)
@@ -109,6 +103,8 @@ Detailed database documentation is available in the `/Database` folder.
 - Role-based authentication
 - UI/UX enhancements
 - Unit testing for business logic
+
+---
 
 ## 📄 License
 
